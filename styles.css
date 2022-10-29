@@ -1,4 +1,29 @@
 /* Add your CSS to this file */
+header .container{
+    
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+header .container nav ul,li,a{
+    
+    background-color: white;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+
+header ul{
+     grid-column: 2;
+}
+
+header h1{
+    grid-column: 1;
+
+}
+
 body {
     margin: 0;
     font-size: 16px;
